@@ -14,6 +14,8 @@
 		09B4CDF022433C96008FC661 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B4CDEE22433C96008FC661 /* LaunchScreen.storyboard */; };
 		09B4CDFB22433C96008FC661 /* AnimationLayerSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B4CDFA22433C96008FC661 /* AnimationLayerSwiftTests.swift */; };
 		09B4CE0622433C96008FC661 /* AnimationLayerSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B4CE0522433C96008FC661 /* AnimationLayerSwiftUITests.swift */; };
+		09B4CE17224391DE008FC661 /* EmitterFireVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B4CE15224391DE008FC661 /* EmitterFireVC.swift */; };
+		09B4CE18224391DE008FC661 /* EmitterFireVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09B4CE16224391DE008FC661 /* EmitterFireVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		09B4CE0122433C96008FC661 /* AnimationLayerSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationLayerSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09B4CE0522433C96008FC661 /* AnimationLayerSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationLayerSwiftUITests.swift; sourceTree = "<group>"; };
 		09B4CE0722433C96008FC661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09B4CE15224391DE008FC661 /* EmitterFireVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmitterFireVC.swift; sourceTree = "<group>"; };
+		09B4CE16224391DE008FC661 /* EmitterFireVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmitterFireVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				09B4CDE522433C94008FC661 /* AppDelegate.swift */,
 				09B4CDE722433C95008FC661 /* ViewController.swift */,
+				09B4CE15224391DE008FC661 /* EmitterFireVC.swift */,
+				09B4CE16224391DE008FC661 /* EmitterFireVC.xib */,
 				09B4CDE922433C95008FC661 /* Main.storyboard */,
 				09B4CDEC22433C96008FC661 /* Assets.xcassets */,
 				09B4CDEE22433C96008FC661 /* LaunchScreen.storyboard */,
@@ -232,6 +238,7 @@
 				09B4CDF022433C96008FC661 /* LaunchScreen.storyboard in Resources */,
 				09B4CDED22433C96008FC661 /* Assets.xcassets in Resources */,
 				09B4CDEB22433C95008FC661 /* Main.storyboard in Resources */,
+				09B4CE18224391DE008FC661 /* EmitterFireVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +265,7 @@
 			files = (
 				09B4CDE822433C95008FC661 /* ViewController.swift in Sources */,
 				09B4CDE622433C94008FC661 /* AppDelegate.swift in Sources */,
+				09B4CE17224391DE008FC661 /* EmitterFireVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
