@@ -16,6 +16,7 @@
 		09B4CE0622433C96008FC661 /* AnimationLayerSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B4CE0522433C96008FC661 /* AnimationLayerSwiftUITests.swift */; };
 		09B4CE17224391DE008FC661 /* EmitterFireVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B4CE15224391DE008FC661 /* EmitterFireVC.swift */; };
 		09B4CE18224391DE008FC661 /* EmitterFireVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09B4CE16224391DE008FC661 /* EmitterFireVC.xib */; };
+		09B4CE1A224482FB008FC661 /* EmitterNenoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B4CE19224482FB008FC661 /* EmitterNenoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		09B4CE0722433C96008FC661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09B4CE15224391DE008FC661 /* EmitterFireVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmitterFireVC.swift; sourceTree = "<group>"; };
 		09B4CE16224391DE008FC661 /* EmitterFireVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmitterFireVC.xib; sourceTree = "<group>"; };
+		09B4CE19224482FB008FC661 /* EmitterNenoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmitterNenoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				09B4CDE722433C95008FC661 /* ViewController.swift */,
 				09B4CE15224391DE008FC661 /* EmitterFireVC.swift */,
 				09B4CE16224391DE008FC661 /* EmitterFireVC.xib */,
+				09B4CE19224482FB008FC661 /* EmitterNenoVC.swift */,
 				09B4CDE922433C95008FC661 /* Main.storyboard */,
 				09B4CDEC22433C96008FC661 /* Assets.xcassets */,
 				09B4CDEE22433C96008FC661 /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09B4CDE822433C95008FC661 /* ViewController.swift in Sources */,
+				09B4CE1A224482FB008FC661 /* EmitterNenoVC.swift in Sources */,
 				09B4CDE622433C94008FC661 /* AppDelegate.swift in Sources */,
 				09B4CE17224391DE008FC661 /* EmitterFireVC.swift in Sources */,
 			);

@@ -71,6 +71,9 @@
 import UIKit
 
 class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+    
+    let data = ["火焰效果", "霓虹效果"]
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -81,14 +84,24 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        let vc:EmitterFireVC = EmitterFireVC()
-        self.navigationController?.pushViewController(vc, animated: true)
+        switch indexPath.row {
+        case 0:
+            let vc:EmitterFireVC = EmitterFireVC()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 1:
+            let vc:EmitterNenoVC = EmitterNenoVC()
+            self.navigationController?.pushViewController(vc, animated: true)
+        default:
+            print("switch default")
+        }
+        
+        
     }
 
     // MARK: UITableViewDataSource
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 6
+        return data.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -97,7 +110,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         
         let cell:UITableViewCell = tableView.dequeueReusableCell(withIdentifier: identify) ?? .init(style: .default, reuseIdentifier: identify)
         
-        cell.textLabel?.text = "\(indexPath.row + 1)"
+        cell.textLabel?.text = data[indexPath.row]
         
         return cell
     }
