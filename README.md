@@ -14,7 +14,7 @@
 
 - CAReplicatorLayer图层复制
 
-(2) 图层复制 - 雷达效果
+(1) 图层复制 - 雷达效果
 
 ![图层复制 - 雷达效果.gif](https://upload-images.jianshu.io/upload_images/1276164-78028cf557c7cbf8.gif?imageMogr2/auto-orient/strip)
 
