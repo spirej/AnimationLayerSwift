@@ -6,6 +6,12 @@
 //  Copyright © 2019年 xiangshang360. All rights reserved.
 //
 
+/*
+ 粒子系统由两部分组成：CAEmitterLayer CAEmitterCell
+ (1)CAEmitterLayer为粒子发射图层。该图层主要用于控制粒子展现范围、粒子发射位置、粒子发射形状、渲染模式等。通过CAEmitterCell构建的发射单元都受到CAEmitterLayer图层节制。
+ (2)CAEmitterCell粒子发射单元，控制粒子的移动速度、方向、范围等等，这些属性可以制作酷炫的粒子特效动画
+ */
+
 import UIKit
 
 class EmitterFireVC: UIViewController {

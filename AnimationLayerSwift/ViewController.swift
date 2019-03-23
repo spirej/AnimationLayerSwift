@@ -72,7 +72,7 @@ import UIKit
 
 class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
-    let data = ["火焰效果", "霓虹效果"]
+    let data = ["火焰效果", "霓虹效果", "GradientLayer", "CAReplicatorLayer"]
     
 
     override func viewDidLoad() {
@@ -91,11 +91,16 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         case 1:
             let vc:EmitterNenoVC = EmitterNenoVC()
             self.navigationController?.pushViewController(vc, animated: true)
+        case 2:
+            let vc:GradientLayerVC = GradientLayerVC()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 3:
+            let vc:CAReplicatorLayerVC = CAReplicatorLayerVC()
+            self.navigationController?.pushViewController(vc, animated: true)
+            
         default:
             print("switch default")
         }
-        
-        
     }
 
     // MARK: UITableViewDataSource

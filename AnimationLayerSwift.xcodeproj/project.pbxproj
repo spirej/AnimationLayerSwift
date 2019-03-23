@@ -17,6 +17,8 @@
 		09B4CE17224391DE008FC661 /* EmitterFireVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B4CE15224391DE008FC661 /* EmitterFireVC.swift */; };
 		09B4CE18224391DE008FC661 /* EmitterFireVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09B4CE16224391DE008FC661 /* EmitterFireVC.xib */; };
 		09B4CE1A224482FB008FC661 /* EmitterNenoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B4CE19224482FB008FC661 /* EmitterNenoVC.swift */; };
+		09B4CE1E2244D8F8008FC661 /* GradientLayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B4CE1D2244D8F8008FC661 /* GradientLayerVC.swift */; };
+		09B4CE2022460F59008FC661 /* CAReplicatorLayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B4CE1F22460F59008FC661 /* CAReplicatorLayerVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		09B4CE15224391DE008FC661 /* EmitterFireVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmitterFireVC.swift; sourceTree = "<group>"; };
 		09B4CE16224391DE008FC661 /* EmitterFireVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmitterFireVC.xib; sourceTree = "<group>"; };
 		09B4CE19224482FB008FC661 /* EmitterNenoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmitterNenoVC.swift; sourceTree = "<group>"; };
+		09B4CE1D2244D8F8008FC661 /* GradientLayerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientLayerVC.swift; sourceTree = "<group>"; };
+		09B4CE1F22460F59008FC661 /* CAReplicatorLayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAReplicatorLayerVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 				09B4CE15224391DE008FC661 /* EmitterFireVC.swift */,
 				09B4CE16224391DE008FC661 /* EmitterFireVC.xib */,
 				09B4CE19224482FB008FC661 /* EmitterNenoVC.swift */,
+				09B4CE1D2244D8F8008FC661 /* GradientLayerVC.swift */,
+				09B4CE1F22460F59008FC661 /* CAReplicatorLayerVC.swift */,
 				09B4CDE922433C95008FC661 /* Main.storyboard */,
 				09B4CDEC22433C96008FC661 /* Assets.xcassets */,
 				09B4CDEE22433C96008FC661 /* LaunchScreen.storyboard */,
@@ -267,6 +273,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				09B4CDE822433C95008FC661 /* ViewController.swift in Sources */,
+				09B4CE2022460F59008FC661 /* CAReplicatorLayerVC.swift in Sources */,
+				09B4CE1E2244D8F8008FC661 /* GradientLayerVC.swift in Sources */,
 				09B4CE1A224482FB008FC661 /* EmitterNenoVC.swift in Sources */,
 				09B4CDE622433C94008FC661 /* AppDelegate.swift in Sources */,
 				09B4CE17224391DE008FC661 /* EmitterFireVC.swift in Sources */,
